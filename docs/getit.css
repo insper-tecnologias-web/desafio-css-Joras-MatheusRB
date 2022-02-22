@@ -95,19 +95,23 @@ body {
 }
 
 .card{
- /* display: inline-flex;
- justify-content: space-between; */
- /* flex-grow: 4; */
- /* flex-wrap: wrap;
- flex-flow: column wrap;
- align-items: stretch; */
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+ align-content: center;
  border-radius: 0.5rem;
  padding: 0.5rem;
  height: 10rem;
  width: 20rem;
+ transform: rotate(1deg);
  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.6);
 }
 
+.card-title{
+  display: flex;
+  justify-content: top;
+}
 .card-container{
   display: flex;
   flex-direction: row;
@@ -115,44 +119,51 @@ body {
   flex-grow: 4;
   flex-wrap: wrap;
   align-items: flex-start;
-  gap: 1rem 1girem;
+  gap: 1rem 1rem;
  }
  
 
-.card-rotation-1{
+.card-color-1{
+  transform: rotate(1deg);
   background-color: aqua;
 }
-.card-rotation-2{
+.card-color-2{
   background-color: palevioletred;
 }
-.card-rotation-3{
+.card-color-3{
   background-color: burlywood;
 }
-.card-rotation-4{
-  background-color: papayawhip;
+.card-color-4{
+  background-color: aliceblue;
 }
-.card-rotation-5{
-  background-color: #e0af26;
-}
-.card-rotation-6{
-  background-color: palegoldenrod;
-}
-.card-rotation-7{
-  background-color: palevioletred;
-}
-.card-rotation-8{
-  background-color: burlywood;
-}
-.card-rotation-9{
-  background-color: teal;
-}
-.card-rotation-10{
+.card-color-5{
   background-color: palegreen;
 }
-.card-rotation-11{
-  background-color: peachpuff;
-}
 
+.card-rotation-1{
+  transform: rotate(1deg);
+}
+.card-rotation-2{
+  transform: rotate(2deg);
+}
+.card-rotation-3{
+  transform: rotate(3deg);
+}
+.card-rotation-3{
+  transform: rotate(4deg);
+}
+.card-rotation-4{
+  transform: rotate(-1deg);
+}
+.card-rotation-5{
+  transform: rotate(-2deg);
+}
+.card-rotation-6{
+  transform: rotate(-3deg);
+}
+.card-rotation-7{
+  transform: rotate(-4deg);
+}
 
 .card-title{
   font-family: 'Permanent Marker', cursive;
