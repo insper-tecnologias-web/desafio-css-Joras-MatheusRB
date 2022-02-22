@@ -25,6 +25,65 @@ Algumas informações úteis e dicas:
 html,
 body {
   font-family: "Roboto", sans-serif;
+  flex-direction: column;
+}
+
+.appbar {
+  background-color:  #f7d736;
+  display: flex;
+  box-shadow: 0.1rem 0.3rem 0.3rem #757575;
+  align-items: center;
+
+}
+
+.logo{
+  max-width: 8%;  
+  height: auto;  
+  margin: 0.7rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-card{
+  width: 33rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  
+  margin: 2.5rem;
+  padding: 1rem 1rem;
+  border-radius: 0.3rem;
+  box-shadow: 0rem 0.3rem 0.3rem 0.1rem #757575;
+
+  background-color: #ffff;
+}
+
+.form-card-title{
+  border: 0px none;
+  font-size: 1rem;
+  font-weight: 550;
+  margin-bottom: 0.8rem;
+}
+.autoresize{
+  width: 32.7rem;
+  border: 0px none;
+  resize: none;
+}
+.btn {
+  margin-top: 0.7rem;
+  padding: 0.3rem;
+  background-color: #f7d736;
+  width: 33rem;
+  height: auto;
+  border-radius: 0.3rem;
+  box-shadow: 0rem 0.03rem 0.1rem 0.05rem A1A1A1;
+  outline: none;
+  border-color: #f7d736 ;
+  font-weight: 550;
 }
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
