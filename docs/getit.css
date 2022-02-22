@@ -47,7 +47,9 @@ body {
 }
 
 .btn > * {
+  display: flex;
   position: relative;
+  justify-content: center;
 }
 
 .btn:before {
@@ -77,4 +79,84 @@ body {
   padding-top: 120%;
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
+}
+
+.logo{
+  max-width: 15%;
+}
+
+.appbar{
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  background-color: #f7d736;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.6);
+}
+
+.card{
+ /* display: inline-flex;
+ justify-content: space-between; */
+ /* flex-grow: 4; */
+ /* flex-wrap: wrap;
+ flex-flow: column wrap;
+ align-items: stretch; */
+ border-radius: 0.5rem;
+ padding: 0.5rem;
+ height: 10rem;
+ width: 20rem;
+ box-shadow: 0 4px 4px rgba(0, 0, 0, 0.6);
+}
+
+.card-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-grow: 4;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 1rem 1rem;
+ }
+ 
+
+.card-rotation-1{
+  background-color: aqua;
+}
+.card-rotation-2{
+  background-color: palevioletred;
+}
+.card-rotation-3{
+  background-color: burlywood;
+}
+.card-rotation-4{
+  background-color: papayawhip;
+}
+.card-rotation-5{
+  background-color: #e0af26;
+}
+.card-rotation-6{
+  background-color: palegoldenrod;
+}
+.card-rotation-7{
+  background-color: palevioletred;
+}
+.card-rotation-8{
+  background-color: burlywood;
+}
+.card-rotation-9{
+  background-color: teal;
+}
+.card-rotation-10{
+  background-color: palegreen;
+}
+.card-rotation-11{
+  background-color: peachpuff;
+}
+
+
+.card-title{
+  font-family: 'Permanent Marker', cursive;
+}
+.card-content{
+  font-family: cursive;
 }
