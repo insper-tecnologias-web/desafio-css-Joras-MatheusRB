@@ -22,14 +22,14 @@ Algumas informações úteis e dicas:
   - Sombra: https://codepen.io/sdthornton/pen/wBZdXq
  */
 
-html,
+/* html,
 body {
   font-family: "Roboto", sans-serif;
-}
+} */
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
- .btn {
+ /* .btn {
   position: relative;
   display: block;
   padding: 10px 15px;
@@ -83,35 +83,109 @@ body {
 
 .logo{
   max-width: 15%;
-}
+} */
 
-.appbar{
+/* .appbar{
   display: inline-flex;
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
   background-color: #f7d736;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.6);
+} */
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  flex-direction: column;
 }
 
+.appbar {
+  background-color:  #f7d736;
+  display: flex;
+  box-shadow: 0.1rem 0.3rem 0.3rem #757575;
+  align-items: center;
+
+}
+
+.logo{
+  max-width: 5%;  
+  height: auto;  
+  margin: 0.7rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-card{
+  width: 33rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  
+  margin: 2.5rem;
+  padding: 1rem 1rem;
+  border-radius: 0.3rem;
+  box-shadow: 0rem 0.3rem 0.3rem 0.1rem #757575;
+
+  background-color: #ffff;
+}
+
+.form-card-title{
+  border: 0px none;
+  font-size: 1rem;
+  font-weight: 550;
+  margin-bottom: 0.8rem;
+}
+.autoresize{
+  width: 32.7rem;
+  border: 0px none;
+  resize: none;
+}
+.btn {
+  margin-top: 0.7rem;
+  padding: 0.3rem;
+  background-color: #f7d736;
+  width: 33rem;
+  height: auto;
+  border-radius: 0.3rem;
+  box-shadow: 0rem 0.03rem 0.1rem 0.05rem A1A1A1;
+  outline: none;
+  border-color: #f7d736 ;
+  font-weight: 550;
+}
 .card{
  display: flex;
- justify-content: center;
  flex-direction: column;
- align-items: center;
- align-content: center;
  border-radius: 0.5rem;
  padding: 0.5rem;
- height: 10rem;
- width: 20rem;
- transform: rotate(1deg);
+ height: 9rem;
+ width: 18rem;
  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.6);
 }
 
 .card-title{
   display: flex;
-  justify-content: top;
+  justify-content: flex-start;
+  font-family: 'Permanent Marker', cursive;
+  align-self: flex-start;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
 }
+
+.card-content{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Permanet Marker', cursive;
+  color: #4c4c4c;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  /* padding: 2.1rem; */
+}
+
 .card-container{
   display: flex;
   flex-direction: row;
@@ -119,12 +193,13 @@ body {
   flex-grow: 4;
   flex-wrap: wrap;
   align-items: flex-start;
-  gap: 1rem 1rem;
+  gap: 2rem 1.4rem;
+  width: 133rem;
+  height: auto;
  }
  
 
 .card-color-1{
-  transform: rotate(1deg);
   background-color: aqua;
 }
 .card-color-2{
@@ -165,9 +240,3 @@ body {
   transform: rotate(-4deg);
 }
 
-.card-title{
-  font-family: 'Permanent Marker', cursive;
-}
-.card-content{
-  font-family: cursive;
-}
