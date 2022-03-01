@@ -4,7 +4,7 @@ DUPLA:
 
 - Jorás Oliveira
 - Matheus Barros
-- Link do GitHub Pages: COLOQUE O LINK AQUI (POR EXEMPLO: https://insper-tecnologias-web.github.io/desafio-css/)
+- Link do GitHub Pages: https://insper-tecnologias-web.github.io/desafio-css-Joras-MatheusRB/
 
 ## Desafio CSS
 
