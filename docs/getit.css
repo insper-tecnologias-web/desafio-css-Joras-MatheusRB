@@ -164,6 +164,7 @@ body {
  height: 9rem;
  width: 18rem;
  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.6);
+ margin-bottom: 3rem;
 }
 
 .card-title{
@@ -189,11 +190,10 @@ body {
 .card-container{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content:space-evenly;
   flex-grow: 1;
   flex-wrap: wrap;
   align-items: flex-start;
-  gap: 1.8rem 1.4rem;
  }
  
 
