@@ -190,12 +190,10 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  flex-grow: 4;
+  flex-grow: 1;
   flex-wrap: wrap;
   align-items: flex-start;
-  gap: 2rem 1.4rem;
-  width: 133rem;
-  height: auto;
+  gap: 1.8rem 1.4rem;
  }
  
 
